@@ -2,6 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  body {
     font-family: sans-serif;
   }
+
+  header {
+    background-color: rgb(31, 207, 207);
+    height: 100px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  }
   
+  .menu div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu img {
+    height: 50px; /*dimensione del logo */
+  }
+  
+  .menu div ul:first-child {
+    margin-right: auto; /* sposta elementi*/
+  }
+  
+  .menu div ul:last-child {
+    margin-left: auto; /* sposta "End Meeting" a destra */
+  }
+
+  main {
+    flex-grow: 3;
+    height: 600px;
+    background-color: red;
+    margin: 20px 5%;
+  }
+
+  aside {
+    flex-grow: 1;
+    background-color: rebeccapurple;
+    margin: 20px 0;
+  }
+
+  footer {
+    background-color: darkblue;
+    height: 200px;
+    margin-top: 20px;
+  }
