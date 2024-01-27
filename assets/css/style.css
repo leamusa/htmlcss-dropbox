@@ -1,67 +1,122 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: sans-serif;
-  }
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  margin: 0 25%;
+  width: 1000px;
+}
 
-  header {
-    background-color: rgb(31, 207, 207);
-    height: 100px;
-  }
+button {
+  background-color: blue;
+  color: aliceblue;
+  padding: 6px;
+}
 
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-  }
-  
-  .menu div {
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu ul li {
-    margin: 0 15px;
-  }
-  
-  .menu img {
-    height: 50px; /*dimensione del logo */
-  }
-  
-  .menu div ul:first-child {
-    margin-right: auto; /* sposta elementi*/
-  }
-  
-  .menu div ul:last-child {
-    margin-left: auto; /* sposta "End Meeting" a destra */
-  }
+.header {
+  background: red;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.header_child1 {
+  background: rgb(246, 246, 252);
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header_child2 {
+  background: rgb(255, 255, 255);
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
 
-  main {
-    flex-grow: 3;
-    height: 600px;
-    background-color: red;
-    margin: 20px 5%;
-  }
+main {
+  background-color: #b4d0e7;
+  width: 100%;
+  height: 500px;
+}
 
-  aside {
-    flex-grow: 1;
-    background-color: rebeccapurple;
-    margin: 20px 0;
-  }
+.container-max {
+  display: flex;
+  justify-content: center;
+}
+.container-left {
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+}
+.container-right {
+  margin-top: 20px;
+}
+.jumbo {
+  width: 900px;
+}
+.btn {
+  background-color: blue;
+  padding: 8px;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
 
-  footer {
-    background-color: darkblue;
-    height: 200px;
-    margin-top: 20px;
-  }
+h6 {
+  margin-top: 30px;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.circle {
+  border-radius: 100%;
+  border: 3px solid blue;
+  width: 20px;
+  height: 20px;
+}
+.business {
+  height: 100px;
+}
+
+.container-sm {
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+[class^="col-"] {
+  padding: 1rem;
+}
+
+.col-4 {
+  width: calc((100% / 12) * 4);
+}
+.col-8 {
+  width: calc((100% / 12) * 8);
+}
+.col-12 {
+  width: 100%;
+}
+.line {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
