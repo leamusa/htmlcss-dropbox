@@ -1,196 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="https://fonts.google.com/specimen/Open+Sans?query=Open+Sans" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Dropbox</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="menu">
 
-  <body>
-    <header class="header">
-      <div class="header_child1">
-        <img src="/assets/img/logo-small.png" alt="logo" />
-        <p>Perchè Dropbox</p>
-        <p>Funzioni</p>
-        <p>Piani e prezzi</p>
+      
+      <div>
+        <ul>
+          <li><img src="./assets/img/logo-small.png" alt="logo"></li>
+          <li><a href="#">Perchè Dropbox</a></li>
+          <li><a href="#">Funzioni</a></li>
+          <li><a href="#">Piani e prezzi</a></li>
+        </ul>
       </div>
-      <div class="header_child2">
-        <p>Supporto</p>
-        <p>Contatta l'ufficio vendite</p>
-        <p>Accedi</p>
-        <button>inizia</button>
+
+      <div>
+        <ul>
+          <li><a href="#">Supporto</a></li>
+          <li><a href="#">Contatta l'ufficio vendite</a></li>
+          <li><a href="#">Accedi</a></li>
+          <li><a class="button color" href="#">Inizia</a></li>
+        </ul>
       </div>
-    </header>
-    <main>
-      <h1 class="title">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, eum?
-      </h1>
-      <div class="container-max">
-        <div class="container-left">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            velit commodi quod animi saepe aliquid reprehenderit officiis
-            delectus, beatae incidunt ea, fugit magni harum blanditiis earum
-            autem quo laudantium libero.
-          </p>
-          <button class="btn">Inizia la tua prova gratutia</button>
-          <h6>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            assumenda.
-          </h6>
+    </nav>
+
+    
+  
+  </header>
+
+ <div class="jumbotron">
+    <div class="container ">
+      <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+
+      <div class="d-flex">
+        <div class="paragrafo ">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus eum provident perferendis at hic amet maiores iusto, deleniti vel iure harum earum, aliquid magni eligendi unde optio asperiores. Commodi.</p>
+        <button class="button">Inizia la tua prova gratuita</button>
+        <p class="annulla"> Annulla in qualsiasi momento</p>
+        <i class="fa-solid fa-arrow-down"></i>
+        
+
+      </div>
+
+      <div class="jumbo">
+        <img src="./assets/img/jumbo.png" alt="jumbo">
+      </div>
+    </div>
+        
+  </div>
+
+  <main>
+    <div class="container">
+      <h2>Trova il piano business che fa per te</h2>
+      <input type="radio">Fatturazione mensile
+      <input type="radio">Fatturazione annuale
+    </div>
+
+
+    <div class="container d-flex">
+      <div class="column">
+        <div class="tipologia">
+          <i class="fa-solid fa-user"></i>
+          <span>Singolo</span>
+          <div class="border"></div>
         </div>
-        <div class="container-right">
-          <img class="jumbo" src="./assets/img/jumbo.png" alt="jumbo" />
+       
+        <div>
+          <ul>
+            <li><h3>Professional</h3></li>
+            <li>&euro;12.00</li>
+            <li>/mese</li>
+            <li><i class="fa-solid fa-user"></i>1 Utente</li>
+            <li>5 TB di spazio di archiviazione sicuro</li>
+            <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttivita premium e condivisione file semplice e sicura</li>
+            <li><a class="button" href="#">Prova gratis per 30 giorni</a></li>
+            <li>oppure <a href="#">acquista ora</a></li>
+            <!--riga grigia-->
+            <li><h4>Punti salienti del piano</h4></li>
+            <li><i class="fa-solid fa-check"></i>Invia file in qualsiasi momento</li>
+            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+          </ul>
         </div>
       </div>
-      <div class="business">
-        <h2>Trova il piano bussniess che fa per te</h2>
-        <div class="select">
-          <div class="circle"></div>
-          <div class="circle"></div>
+      
+
+      <div class="column">
+        <div class="tipologia">
+          <i class="fa-solid fa-user"></i>
+          <span>Singolo</span>
+          <div class="border"></div>
         </div>
-        <div class="container-sm">
-          <div class="row">
-            <div class="col-4">
-              <div class="logo">Singolo</div>
-              <div class="list">
-                <ul>
-                  <li>
-                    <h4>Professional</h4>
-                  </li>
-                  <li>12.00</li>
-                  <li>1 Utente</li>
-                  <li>5 tb di Spazio produttiva premium</li>
-                  <li><button>Prova gratis per 30 giorni</button></li>
-                  <li>oppure <a href="http://">acquista ora</a></li>
-                  <li>
-                    <div class="linea"></div>
-                  </li>
-                  <li>
-                    <h6>Punti Salienti del piano</h6>
-                  </li>
-                  <li>Lorem ipsum dolor sit.</li>
-                  <li>Lorem ipsum dolor sit.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-4 card">
-              <div class="logo">Advanced</div>
-              <div class="list">
-                <ul>
-                  <li>
-                    <h4>Professional</h4>
-                  </li>
-                  <li>12.00</li>
-                  <li>1 Utente</li>
-                  <li>5 tb di Spazio produttiva premium</li>
-                  <li><button>Prova gratis per 30 giorni</button></li>
-                  <li>oppure <a href="http://">acquista ora</a></li>
-                  <li>
-                    <div class="linea"></div>
-                  </li>
-                  <li>
-                    <h6>Punti Salienti del piano</h6>
-                  </li>
-                  <li>Lorem ipsum dolor sit.</li>
-                  <li>Lorem ipsum dolor sit.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-4 card">
-              <div class="logo">Enterprise</div>
-              <div class="list">
-                <ul>
-                  <li>
-                    <h4>Professional</h4>
-                  </li>
-                  <li>12.00</li>
-                  <li>1 Utente</li>
-                  <li>5 tb di Spazio produttiva premium</li>
-                  <li><button>Prova gratis per 30 giorni</button></li>
-                  <li>oppure <a href="http://">acquista ora</a></li>
-                  <li>
-                    <div class="linea"></div>
-                  </li>
-                  <li>
-                    <h6>Punti Salienti del piano</h6>
-                  </li>
-                  <li>Lorem ipsum dolor sit.</li>
-                  <li>Lorem ipsum dolor sit.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-12">
-                <div class="scritta">
-                 <div>
-                  <h4>Lorem ipsum dolor sit amet.</h4>
-                  <h6>Lorem, ipsum.</h6>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, repellendus?</p>
-                 </div>
-                  <button class="btn-2">Contatta il venditore</button>
-                </div>
-              </div>
-            </div>
-            <div class="box_2">
-              <div class="img_box">
-                <img class="img_box" src="./assets/img/partner.png" alt="">
-              </div>
-              <div class="box_right">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste harum beatae ipsum quasi doloremque. Asperiores expedita dolor facilis id dolorem!</p>
-                <button class="btn_grey">trova il tuo partner</button>
-              </div>
-            </div>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, praesentium.</h2>
-            <div class="card-container">
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-switching-tools.png" alt="">
-                <h2>Card 1</h2>
-                <p>This is the content of card 1.</p>
-              </div>
+       
+        <div>
+          <ul>
+            <li><h3>Professional</h3></li>
+            <li>&euro;12.00</li>
+            <li>/mese</li>
+            <li><i class="fa-solid fa-users"></i>3 o più utenti</li>
+            <li>5 TB di spazio di archiviazione sicuro</li>
+            <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttivita premium e condivisione file semplice e sicura</li>
+            <li><a class="button" href="#">Prova gratis per 30 giorni</a></li>
+            <li>oppure <a href="#">acquista ora</a></li>
+            <!--riga grigia-->
+            <li><h4>Punti salienti del piano</h4></li>
+            <li><i class="fa-solid fa-check"></i>Invia file fino a 100GB CON dropbox Trasfert</li>
+            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+            <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizione singole</li>
+            <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri nel team</li>
+            <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="tipologia">
+          <i class="fa-solid fa-user"></i>
+          <span>Singolo</span>
+          <div class="border"></div>
+        </div>
+       
+        <div>
+          <ul>
+            <li><h3>Professional</h3></li>
+            <li>&euro;12.00</li>
+            <li>/mese</li>
+            <li><i class="fa-solid fa-user"></i>1 Utente</li>
+            <li>5 TB di spazio di archiviazione sicuro</li>
+            <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttivita premium e condivisione file semplice e sicura</li>
+            <li><a class="button" href="#">Prova gratis per 30 giorni</a></li>
+            <li>oppure <a href="#">acquista ora</a></li>
+            <!--riga grigia-->
+            <li><h4>Punti salienti del piano</h4></li>
+            <li><i class="fa-solid fa-check"></i>Invia file fino a 100GB con Dropbox Trasfert</li>
+            <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class=" container d-flex">
+      <div class="row">
+        <div class="tipologia">
+          <i class="fa-solid fa-building"></i>
+          <span>Team</span>
+          <div class="border"></div>
+        </div>
+
           
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-send-files-it.png" alt="">
-                <h2>Card 2</h2>
-                <p>This is the content of card 2.</p>
-              </div>
-          
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-coordinate-it.png" alt="">
-                <h2>Card 3</h2>
-                <p>This is the content of card 3.</p>
-              </div>
-          
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-integrations-it.png"alt="">
-                <h2>Card 4</h2>
-                <p>This is the content of card 4.</p>
-              </div>
-          
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-multi-device.png" alt="">
-                <h2>Card 5</h2>
-                <p>This is the content of card 5.</p>
-              </div>
-          
-              <div class="card">
-                <img class="img_card" src="./assets/img/business-feature-coordinate-it.png" alt="">
-                <h2>Card 6</h2>
-                <p>This is the content of card 6.</p>
-              </div>
+          <div class="x d-flex">
+            <div class="info">
+              <h3>Enterprise</h3>
+              <h4>Contatta l'ufficio vendite per i prezzi</h4>
+              <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+            </div>
+            <div>
+              <button class="button">Contatta l'ufficio vendite</button>
             </div>
           </div>
-        </div>
-        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, modi!</h3>
       </div>
-    </main>
-  </body>
+    </div>
+      
+     
+
+     <section>
+
+      <div class="container d-flex">
+          <div class="img">
+            <img src="./assets/img/partner.png" alt="">
+          </div>
+
+          <div class="info-right">
+            <h3>Entra in contatto con un partner Dropbox</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus error cum quasi repellat voluptatum adipisci, eos commodi ad aspernatur. Eveniet exercitationem impedit eligendi, esse nesciunt quae minus ipsa illo enim beatae fugiat quis cupiditate harum autem. Repellat, adipisci explicabo!</p>
+            <a class="grafica" href="http://">Trova un partner</a>
+          </div>
+        </div>
+    </section>
+
+     <section>
+      <div class="container">
+        <h2>Esegui più operazioni con Dropbox Business</h2>
+        <div class="d-flex flex-wrap">
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-switching-tools.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-send-files-it.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-coordinate-it.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-integrations-it.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-multi-device.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+
+          <div class="box">
+            <img class="box-image" src="./assets/img/business-feature-security.png" alt="">
+            <h4>Passa du nebi da ybi strumento all'altro</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, deleniti. Dolore delectus cumque soluta exercitationem facilis facere quam non omnis ipsum mollitia harum eveniet assumenda minus molestias eos, debitis veritatis quo quidem, saepe dicta autem. Quod impedit possimus doloremque neque.</p>
+          </div>
+         </div>
+      </div>
+     </section>
+
+     <section>
+
+     <div class="container">
+      <h2 class="subtitle" >Più di 500.000 team utilizzano DropBox Business</h2>
+      <a class="scopri" href="http://">Scopri di più su i nostri clienti</a>
+     </div>
+
+     <div class="content-square d-flex">
+      <div class="square-left"> 
+          <div class="box box-1 active">
+            <img src="./img/designit.svg" alt="">
+          </div>
+
+          <div class="box box-2 active">
+            <img src="./img/arizona_state_university.svg" alt="">
+          </div>
+
+          <div class="box box-3 active">
+            <img src="./img/university_of_florida.svg" alt="">
+          </div>
+
+          <div class="box box-4 active">
+            <img src="./img/topps.svg" alt="">
+          </div>
+        </div>
+      
+
+      <div class="square-center">
+        <div class="logo">
+          <img src="./img/designit.svg" alt="">
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur architecto nihil inventore. Est corrupti quidem ex, inventore rem qui perferendis at impedit, dolorum atque non laudantium recusandae consequatur quos vero minima placeat obcaecati esse ipsa delectus deleniti similique deserunt.</p>
+          <span class="text">lorem3</span>
+        </div>
+      </div>
+
+      <div class="square-right"> 
+        <div class="box box-1 active">
+          <img src="./img/designit.svg" alt="">
+        </div>
+
+        <div class="box box-2 active">
+          <img src="./img/arizona_state_university.svg" alt="">
+        </div>
+
+        <div class="box box-3 active">
+          <img src="./img/university_of_florida.svg" alt="">
+        </div>
+
+        <div class="box box-4 active">
+          <img src="./img/topps.svg" alt="">
+        </div>
+      </div>
+     </div>
+
+      <div class="content">
+        <div class="container d-flex">
+          <h3>Porta Dropbox Business nella tua azienda.</h3>
+          <a class="grafica" href="http://">Inizia la tua prova gratuita</a>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Domande frequenti</h2>
+        <div class="border"></div>
+        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+          <span><i class="fa-solid fa-angle-down"></i></span>
+        </p>
+
+        <div class="border"></div>
+        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+          <span><i class="fa-solid fa-angle-down"></i></span>
+        </p>
+
+        <div class="border"></div>
+        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
+          <span><i class="fa-solid fa-angle-down"></i></span>
+        </p>
+
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+    
+
+
+
+  
+</body>
 </html>

@@ -1,174 +1,278 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
   margin: 0 25%;
   width: 1000px;
-  text-align: center;
 }
 
-button {
+.button {
   background-color: blue;
-  color: aliceblue;
-  padding: 6px;
-}
-
-.header {
-  background: red;
-  width: 100%;
-  height: 50px;
-  display: flex;
-}
-.header_child1 {
-  background: rgb(246, 246, 252);
-  width: 50%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.header_child2 {
-  background: rgb(255, 255, 255);
-  width: 50%;
-  height: 50px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 20px;
-}
-
-main {
-  background-color: #b4d0e7;
-  width: 100%;
-  height: 500px;
-}
-h1,
-h2 {
-  text-align: center;
-}
-
-.container-max {
-  display: flex;
-  justify-content: center;
-}
-.container-left {
-  height: 300px;
-  width: 300px;
-  margin-top: 20px;
-}
-.container-right {
-  margin-top: 20px;
-}
-.jumbo {
-  width: 900px;
-}
-.btn {
-  background-color: blue;
-  padding: 8px;
-  border: none;
   color: white;
-  margin-top: 40px;
+  padding: 10px;
 }
 
-h6 {
-  margin-top: 30px;
+.fa-arrow-down {
+  padding-top: 1px;
 }
 
-.select {
+.container .border {
+  border: solid 1px #e9e9e9;
+}
+
+header nav {
+  width: 100%;
+  background-color: white;
+  height: 80px;
   display: flex;
-  justify-content: center;
-  align-items: start;
-}
-.circle {
-  border-radius: 100%;
-  border: 3px solid blue;
-  width: 20px;
-  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
 }
 
-.container-sm {
-  width: 70%;
-  max-width: 1200px;
-  margin: auto;
+/*devo risolvere il contenuto che si nasconde dietro il menu */
+header .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+header .menu ul a {
+  text-decoration: none;
+}
+
+.menu ul li .color {
+  color: white;
+}
+
+.menu a {
+  padding-right: 15px;
+  color: grey;
+
+  align-items: center;
+}
+
+.jumbotron {
+  width: 100%;
+  background-color: #b5d0e6;
+  height: 409px;
+  padding-top: 100px;
+}
+.container h1,
+p {
+  margin-bottom: 20px;
+}
+
+.annulla {
+  margin-top: 20px;
+}
+
+.jumbo img {
+  width: 700px;
+  height: 400px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.fa-solid {
+  font-size: 30px;
+}
+
+.column {
+  width: calc(100% / 3);
+  border: solid 1px #e9e9e9;
+}
+
+.column,
+.row .tipologia {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.column hr {
+  border: solid #e9e9e9;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+main li .button {
+  text-decoration: none;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -1rem;
+  width: 100%;
+  border: solid 1px #e9e9e9;
 }
 
-[class^="col-"] {
-  padding: 1rem;
+section .container img {
+  width: 300px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+section .info-right {
+  padding: 40px;
+}
+
+.box-image {
+  width: 200px;
+}
+
+.box {
+  width: calc(100% / 3);
+}
+
+section {
+  padding-top: 100px;
+}
+
+.content {
+  background-color: #b5d0e6;
+  height: 200px;
+  padding-top: 60px;
+}
+
+.content h3 {
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+.content .grafica {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  color: grey;
+}
+
+.x {
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.info-right {
+  padding-right: 20px;
+}
+
+.info-right .grafica {
+  text-decoration: none;
+  color: grey;
+  border: solid #e9e9e9;
+  padding: 10px;
+}
+
+section span .fa-angle-down {
+  font-size: 16px;
+  margin-left: 100px;
+}
+section span p:hover {
+  display: none;
+}
+
+.square-left {
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  height: 30vw;
+  display: flex;
+}
+
+.container .subtitle,
+.scopri {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.content-square img {
+  width: 100px;
+}
+
+.content-square .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  border: 1px solid black;
+}
+.square-center {
+  display: flex;
+  width: calc(100% / 3);
   border: 1px solid black;
 }
 
-.col-4 {
-  width: calc((100% / 12) * 4);
-}
-.col-8 {
-  width: calc((100% / 12) * 8);
-}
-.col-12 {
-  width: 100%;
+.active:active {
+  border: 20px solid rgba(0, 0, 0, 0.5);
 }
 
-ul {
-  list-style-type: none;
-}
-li {
-  margin: 30px 0;
-}
-.scritta {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-2 {
-  width: 200px;
-  height: 30px;
-}
-.img_box {
-  width: 240px;
-}
-.box_2 {
-  display: flex;
-  margin: 80px;
-}
-.box_right {
-  width: 300px;
-  margin-left: 100px;
-}
-.btn_grey {
-  background-color: white;
-  color: gray;
-  margin-top: 20px;
-}
-.card-container {
-  display: flex;
+.square-right {
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 900px;
-  margin: 20px auto;
+  width: calc(100% / 3);
+  height: 30vw;
+  display: flex;
+}
+.square-left .box-1 {
+  background-color: #e8f3e7;
 }
 
-.card {
-  width: 250px;
-  margin: 15px;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+.square-left .box-2 {
+  background-color: #600b2b;
 }
-.img_card {
-  width: 250px;
+
+.square-left .box-3 {
+  background-color: #1794cb;
 }
-h3 {
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 40px;
+
+.square-left .box-4 {
+  background-color: #fc2129;
+}
+
+.square-right .box-1 {
+  background-color: #d20a27;
+}
+.square-right .box-2 {
+  background-color: #b5d0e6;
+}
+.square-right .box-3 {
+  background-color: #10287f;
+}
+.square-right .box-4 {
+  background-color: #f8d142;
+}
+
+.square-center .logo,
+.text {
+  padding: 10px;
+}
+
+.fa-check {
+  color: blue;
+  font-size: 20px;
+}
+
+.fa-share-nodes,
+.fa-user,
+.fa-users {
+  font-size: 20px;
 }
