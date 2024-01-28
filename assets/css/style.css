@@ -167,6 +167,23 @@ section {
   color: grey;
 }
 
+.background {
+  background-color: black;
+  justify-content: space-around;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul {
+  color: white;
+}
+
+footer .border {
+  border: solid gray;
+}
+
 .x {
   justify-content: space-around;
   padding-top: 20px;
