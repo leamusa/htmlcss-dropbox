@@ -73,8 +73,6 @@ p {
 .container h2 {
   margin-top: 100px;
   margin-bottom: 50px;
-  font-size: 50px;
-
 }
 .annulla {
   margin-top: 20px;
@@ -150,7 +148,8 @@ section .info-right {
 }
 
 .box {
-  width: calc(100% / 3);
+  width: calc(33.33% - 20px);
+  margin: 0 10px 20px 10px;
 }
 
 section {
@@ -234,7 +233,7 @@ section span p:hover {
   width: 100px;
 }
 
-.content-square .box {
+.content-square .box-c {
   display: flex;
   justify-content: center;
   align-items: center;
