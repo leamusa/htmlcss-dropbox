@@ -9,14 +9,15 @@ body {
 }
 
 .container {
-  margin: 0 25%;
+  margin-left: auto;
+  margin-right: auto;
   width: 1000px;
 }
 
-.button {
+.btn_1 {
   background-color: blue;
-  color: white;
-  padding: 10px;
+  color: rgb(244, 214, 214);
+  padding: 5px;
 }
 
 .fa-arrow-down {
@@ -39,6 +40,7 @@ header nav {
   z-index: 999;
 }
 
+
 header .menu ul {
   display: flex;
   list-style: none;
@@ -54,16 +56,14 @@ header .menu ul a {
 
 .menu a {
   padding-right: 15px;
-  color: rgb(30, 26, 26);
+  color: rgb(13, 12, 12);
+
   align-items: center;
 }
-.menu {
-  gap: 5px;
-  align-items: center;
-}
+
 .jumbotron {
   width: 100%;
-  background-color: #b5d0e6;
+  background-color: #79baef;
   height: 409px;
   padding-top: 100px;
 }
@@ -71,7 +71,10 @@ header .menu ul a {
 p {
   margin-bottom: 20px;
 }
-
+.container h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 .annulla {
   margin-top: 20px;
 }
@@ -79,6 +82,7 @@ p {
 .jumbo img {
   width: 700px;
   height: 400px;
+ border-style: hidden;
 }
 
 .d-flex {
@@ -101,7 +105,7 @@ p {
 .column,
 .row .tipologia {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .column hr {
@@ -112,7 +116,7 @@ main ul {
   list-style: none;
 }
 
-.main li {
+main li {
   margin-top: 30px;
   margin-left: 15px;
 }
