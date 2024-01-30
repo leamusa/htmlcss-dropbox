@@ -7,6 +7,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+header .menu ul li .btn_1 {
+  background-color: blue;
+  color: white;
+  text-align: center; /* Aggiunto per centrare il testo */
+  display: block; /* Aggiunto per occupare l'intera larghezza del contenitore */
+  width: 70px; /* Modifica la larghezza a tuo piacimento */
+  margin: 0 auto; /* Aggiunto per centrare il button nel suo contenitore */
+}
 
 .container {
   margin-left: auto;
@@ -16,8 +24,9 @@ body {
 
 .btn_1 {
   background-color: blue;
-  color: rgb(244, 214, 214);
-  padding: 5px;
+  padding: 8px;
+  border: none;
+  color: white;
 }
 
 .fa-arrow-down {
@@ -56,7 +65,6 @@ header .menu ul a {
 .menu a {
   padding-right: 15px;
   color: rgb(13, 12, 12);
-
   align-items: center;
 }
 
