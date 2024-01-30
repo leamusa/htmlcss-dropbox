@@ -39,7 +39,6 @@ header nav {
   z-index: 999;
 }
 
-/*devo risolvere il contenuto che si nasconde dietro il menu */
 header .menu ul {
   display: flex;
   list-style: none;
@@ -55,11 +54,13 @@ header .menu ul a {
 
 .menu a {
   padding-right: 15px;
-  color: grey;
-
+  color: rgb(30, 26, 26);
   align-items: center;
 }
-
+.menu {
+  gap: 5px;
+  align-items: center;
+}
 .jumbotron {
   width: 100%;
   background-color: #b5d0e6;
@@ -111,7 +112,7 @@ main ul {
   list-style: none;
 }
 
-main li {
+.main li {
   margin-top: 30px;
   margin-left: 15px;
 }
@@ -292,4 +293,10 @@ section span p:hover {
 .fa-user,
 .fa-users {
   font-size: 20px;
+}
+
+.li_header {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
 }
